@@ -1,4 +1,69 @@
 :root{
-    font-jost: 'Jost', sans-serif;
-    font-lobster: 'Lobster Two', cursive;
+    font-family: 'Jost', sans-serif !important;
+    /* font-family: 'Lobster Two', cursive; */
+}
+
+
+/* seccion-header start */
+.home{
+    border-bottom: 3px solid var(--primary-color);
+}
+
+/* seccion-header end */
+
+/* secction-main start */
+.selector{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+
+}
+
+.carousel-inner{
+    position: relative;
+}
+
+.seccion-main-contenido{
+    position: absolute;
+    left: 6%;
+    top: 30%;
+
+}
+/* seccionn-main end */
+
+/* seccion-productos start */
+.before::before{
+    content: "";
+    background-image: url(../img/shopping-bag.png);   
+}
+
+.before::after{
+    content: "";
+    background-image: url(../img/magnifying-glass.png);
+}
+/* seccion-productos end */
+
+/* card-action start */
+.bg-img{
+    background-image: url(../img/bg1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* card-action end */
+
+
+/* seccion-call-action start */
+.img-call-action{
+    background-image: url(../img/bg-gris.png);
+
+}
+/* seccion-call-action end */
+
+
+.img-little{
+    max-width: 65px ;
+    max-height: 65px;
 }
