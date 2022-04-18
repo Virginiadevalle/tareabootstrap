@@ -1,6 +1,9 @@
-:root{
+/* :root{
     font-family: 'Jost', sans-serif !important;
-    /* font-family: 'Lobster Two', cursive; */
+    font-family: 'Lobster Two', cursive;
+} */
+.html{
+    font-family:'Jost', sans-serif ;
 }
 
 
@@ -54,6 +57,15 @@
 
 /* card-action end */
 
+/* seccion-deals start */
+.bg-img-deals{
+    background-image: url(../img/01\ 1.png) ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+/* seccion-deals end */
 
 /* seccion-call-action start */
 .img-call-action{

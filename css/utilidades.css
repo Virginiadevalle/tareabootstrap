@@ -82,10 +82,18 @@
     color: black;
 }
 
+.color-star{
+    color: rgb(255, 179, 0);
+    
+}
+
 /* colores end */
 
 .font-lower{
     font-size: 12px;
+}
+.font-medio{
+    font-size: medium;
 }
 
 /* posicion-absoluta start */
@@ -125,6 +133,11 @@
     border: 3px solid var(--primary-color);
 }
 /* medidas start */
+.h-60{
+    height: 60px;
+    
+}
+
 .max-height{
     max-height: 350px;
 }
@@ -132,3 +145,36 @@
     max-width: 350px;
 }
 /* medidas end */
+
+/* hovers start */
+.hover-btn{
+    background-color: transparent;
+}
+.hover-btn:hover{
+    background-color: var(--primary-color);
+}
+
+.hover-botton{
+    background-color: transparent;
+}
+.hover-botton:hover{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.hover-img{
+    border: 3px solid white;
+}
+.hover-img:hover{
+    border: 3px solid var(--primary-color);
+}
+
+
+.hover-heart{
+    border: 1px solid transparent;
+}
+.hover-heart:hover{
+    border: 1px solid var(--primary-color);
+}
+
+/* hovers end */
